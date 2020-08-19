@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSEngineBenchmark", "JSEngineBenchmark\JSEngineBenchmark.csproj", "{E7168062-A3A5-4245-842E-A4F80F3A4D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7168062-A3A5-4245-842E-A4F80F3A4D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7168062-A3A5-4245-842E-A4F80F3A4D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7168062-A3A5-4245-842E-A4F80F3A4D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7168062-A3A5-4245-842E-A4F80F3A4D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

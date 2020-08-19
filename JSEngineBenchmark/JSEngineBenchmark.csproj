@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.12.0" />
+      <PackageReference Include="Jint" Version="2.11.58" />
+      <PackageReference Include="Microsoft.AspNetCore.NodeServices" Version="3.1.2" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Scripts\Add.js" />
+      <None Remove="Scripts\Execute.js" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Scripts\ExecuteJint.js" />
+      <None Remove="Scripts\PredefinedNodeServices.js" />
+      <Content Include="Scripts\PredefinedJint.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Scripts\PredefinedNodeServices.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>
